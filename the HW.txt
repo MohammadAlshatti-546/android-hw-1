@@ -1,0 +1,34 @@
+
+    System.out.println(calc(95));
+    System.out.println(calc(85));
+    System.out.println(calc(75));
+    System.out.println(calc(65));
+    System.out.println(calc(55));
+    System.out.println(calc(20));
+    System.out.println(calc(70));
+    
+    
+    
+    
+     }
+     public static int calc(int a){
+         if(a>90){
+             System.out.println("A");
+         }
+        else if(a>80){
+            System.out.println("B");
+        }
+        else if(a>70){
+            System.out.println("C");
+        }
+        else if(a>60){
+            System.out.println("D");
+        }
+        else if(a<60){
+            System.out.println("F");
+        }
+        return a;
+     }
+
+    
+    
